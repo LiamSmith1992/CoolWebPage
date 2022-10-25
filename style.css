@@ -1,0 +1,121 @@
+.bg-brown {
+  background-color: rgb(105, 96, 96);
+  height: 130px;
+  margin-bottom: 5em;
+}
+
+.header-font {
+  font-size: 50px;
+  color: rgb(223, 215, 204);
+}
+
+.pic-container {
+  width: 75%;
+  height: 30%;
+}
+
+.card2 {
+  height: 10px;
+  width: 80%;
+  background: rgba(55, 124, 12, 0.28); 
+  margin-top: 10px; 
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer{
+  background-color: rgb(9, 139, 13);
+  height: 10%;
+  width: 100%;
+  margin-top: auto; 
+}
+
+.right-content {
+  width: 25%;
+}
+
+.text-position  {
+}
+
+.text-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column 
+{
+  flex-direction: column;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-right {
+  align-items: flex-end;
+}
+.m-1 {
+  margin: 1px;
+}
+.m-2 {
+  margin: 2px;
+}
+
+.m-40 {
+  margin-left: 40px;
+}
+
+.m-10percent {
+  margin-left: 10%;
+}
+
+.p-1 {
+  padding: 1px;
+}
+
+.p-2 {
+  padding: 2px;
+}
+
+.p-70top {
+  padding-top: 70px;
+}
+
+p {
+  max-width: 75ch;
+}
+
+.ch-15 {
+  max-width: 15ch;
+}
+
+@media (min-width: 770px) {}
+
